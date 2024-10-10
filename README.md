@@ -1,7 +1,5 @@
 # PlamoVision: Malaria Diagnosis using Deep Learning
 
-![Project Banner](https://upload.wikimedia.org/wikipedia/commons/e/e0/Malaria_Life_Cycle_Phase_in_Human_Blood.jpg)
-
 **PlamoVision** is a deep learning project that uses Computer Vision to automatically diagnose whether a given cell image is parasitized (infected with malaria) or uninfected. This project leverages Convolutional Neural Networks (CNNs) to build an image classifier capable of distinguishing between parasitized and uninfected cells, aiming to assist in malaria diagnosis and potentially streamline the medical screening process.
 
 ## 📜 Project Overview
