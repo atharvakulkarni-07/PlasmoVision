@@ -96,4 +96,4 @@ Feel free to fork this repository and make improvements. Pull requests are welco
 For any questions or collaboration, feel free to reach out:
 
 - **Email**: [atharvakulkarni.official@gmail.com](url)
-- **LinkedIn**: [https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/atharva-kulkarni-3b13a3255/](url)
+- **LinkedIn**: [https://www.linkedin.com/in/atharva-kulkarni-3b13a3255/](url)
