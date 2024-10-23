@@ -1,13 +1,22 @@
 import streamlit as st
+import gdown
 from tensorflow.keras.models import load_model
 import numpy as np
 from PIL import Image
-import time  # For delay
+import os
 
-# Load the trained model
-model = load_model('/Users/atharvakulkarni/myfiles/Projects/PlasmoVision/plasmovision_model.h5')
+# Google Drive model download link
+model_url = 'https://drive.google.com/file/d/16g0bP-TgwXkkVK7Dv1ravImAjYdmYPx_/view?usp=sharing'  # Replace with your file ID
 
+model_file = 'plasmovision_model.h5'
 
+# Download the model if it's not already downloaded
+if not os.path.exists(model_file):
+    with st.spinner("Downloading model..."):
+        gdown.download(model_url, model_file, quiet=False)
+
+# Load the model
+model = load_model(model_file)
 
 
 # Custom CSS for gradient header, dark background, and button styles
