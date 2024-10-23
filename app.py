@@ -6,7 +6,8 @@ from PIL import Image
 import os
 
 # Google Drive model download link
-model_url = 'https://drive.google.com/file/d/16g0bP-TgwXkkVK7Dv1ravImAjYdmYPx_/view?usp=sharing'  # Replace with your file ID
+model_url = "https://drive.google.com/uc?id=16g0bP-TgwXkkVK7Dv1ravImAjYdmYPx_"
+  # Replace with your file ID
 
 model_file = 'plasmovision_model.h5'
 
