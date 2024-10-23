@@ -4,6 +4,7 @@ from tensorflow.keras.models import load_model
 import numpy as np
 from PIL import Image
 import os
+import time
 
 # Google Drive model download link
 model_url = "https://drive.google.com/uc?id=16g0bP-TgwXkkVK7Dv1ravImAjYdmYPx_"
