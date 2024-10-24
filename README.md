@@ -21,8 +21,8 @@ This solution can assist in reducing diagnostic time and help in areas with limi
 The dataset used for training and testing is the **Malaria Cell Images Dataset**, which contains a collection of cell images labeled as either parasitized or uninfected. The dataset has been divided into training and validation sets for model evaluation.
 
 - **Total Images**: ~27,000
-- **Parasitized Cells**: ~13,800
-- **Uninfected Cells**: ~13,800
+- **Parasitized Cells**: ~13,500
+- **Uninfected Cells**: ~13,500
 
 You can download the dataset from [here](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria).
 
